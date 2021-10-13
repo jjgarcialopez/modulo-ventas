@@ -1,0 +1,116 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background-color: rgb(143, 142, 142);
+    box-shadow: 1px 1px black;
+}
+.navbar > li{
+    display: flex;
+    align-items: center;
+}
+.a{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+.body{
+    background: rgb(250, 248, 248);
+}
+.buscar{
+    background-color: white;
+    border: solid 1px gray;
+    padding: 4px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.buscar:focus-within{
+    border: solid 1px blue;
+}
+.buscar > input{
+    outline: none;
+    border: 0px;
+}
+.botonGenerico{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;  
+
+}
+.botonGenerico:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.mainButton{
+    color: white;
+    background-color:#373b39;
+    box-shadow:rgb(175, 175, 175) 1px 1px;
+}
+.mainButton:hover{
+    box-shadow:rgb(224, 235, 224) 2px 1px;
+}
+.logo{
+    height: 70px;
+}
+.iconobusqueda:hover{
+    color: rgb(137, 0, 235);
+}
+/*
+estilos para nueva venta
+*/
+
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.h2{
+    background-color: gray;
+    color: white;
+    border: 2px solid gray;
+}
+.total{
+    background-color: yellow;
+}
+.tabla{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px  solid gray;
+}
+.sinBorde{
+    border: 1px dotted gray;
+}
+.conBorde{
+    border: 1px solid gray;
+}
+td, th{
+    border: 1px none gray;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tabla{
+    border-radius: 50px;
+}
+input{
+    background:gainsboro;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-style: normal;
+    padding: 5px;
+}
+
+option{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-style: normal;
+}
